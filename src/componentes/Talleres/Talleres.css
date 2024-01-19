@@ -1,0 +1,69 @@
+.taller-excel {
+  position: relative;
+  margin: 20px 0px;
+}
+
+.taller-img {
+  opacity: 0.6;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.taller-texto {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.taller-texto h2 {
+  font-size: 50px;
+  color: white;
+  margin: 50px auto 10px auto;
+  align-self: flex-start;
+}
+
+.taller-texto h3 {
+  font-size: 24px;
+  color: white;
+  margin: 30px;
+}
+
+.taller-texto p {
+  font-size: 20px;
+  color: white;
+  margin: 30px 160px 0px 160px;
+  align-self: flex-end;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 500px) {
+
+  .taller-img {
+    height: 220px;
+  }
+
+  .taller-texto h2 {
+    font-size: 20px;
+    margin: 5px auto;
+  }
+
+  .taller-texto h3 {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .taller-texto p {
+    font-size: 12px;
+    margin: 5px;
+    line-height: 1.5;
+  }
+}
